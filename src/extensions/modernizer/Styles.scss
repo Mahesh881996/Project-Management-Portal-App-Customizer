@@ -1,0 +1,17 @@
+#icon{
+    position:absolute;
+    top:0px;
+    right:10px;
+    font-size:20px;
+    z-index:99999;
+}
+.Loader{
+    background: url('https://maheshofficelab.sharepoint.com/sites/ProjectManagementPortal/Resources/Images/Cube-1s-200px.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+    background-color: hsla(0, 0%, 0%, 0.5);
+}

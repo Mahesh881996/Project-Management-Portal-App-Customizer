@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "smp-app-customizer",
+    "libraryId": "bc52a14b-e472-42e6-b4b8-36a5a1addcd4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SMPAppCustomizer",
+    "solutionShortDescription": "SMPAppCustomizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

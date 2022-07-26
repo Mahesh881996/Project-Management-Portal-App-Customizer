@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://maheshofficelab.sharepoint.com/sites/ProjectManagementPortal/SitePages/Home.aspx",
+      "customActions": {
+        "624111ea-1fc9-4b8f-a753-cd884bed3dcd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "modernizer": {
+      "pageUrl": "https://maheshofficelab.sharepoint.com/sites/ProjectManagementPortal/SitePages/Home.aspx",
+      "customActions": {
+        "624111ea-1fc9-4b8f-a753-cd884bed3dcd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
